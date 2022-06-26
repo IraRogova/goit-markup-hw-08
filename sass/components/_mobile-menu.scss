@@ -36,7 +36,16 @@
         border: none;
         padding: 0;
         line-height: 0;
+        
     
+    }
+    
+     .mobile-menu_close-icon{
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     }
+    .mobile-menu__close-btn:hover &,
+    .mobile-menu__close-btn:focus & {
+fill: var(--accent-color);
     }
 
 
@@ -59,21 +68,18 @@
     .mobile-menu__item {
         margin-bottom: 32px;
     }
+
     
-    .mobile-menu__contatcts {
-       
-     
-        
-        margin-top: auto;
-        margin-bottom: 24px;
-    
+
+    .mobile-menu__link_color_accent {
+        color: var(--accent-color);
     }
   
     
     .telefon {
-        font-style: var(-primary-font-family);
-        font-weight: var(--medium-font-weight);
-        font-size: 27px;
+        font-family: var(--primary-font-family);
+        font-weight: 500;
+        font-size: 34px;
         line-height: 1.18;
         letter-spacing: 0.02em;
         color: var(--accent-color);
@@ -81,18 +87,27 @@
     
     }
     .e-mail {
-        font-style: var(-primary-font-family);
-        font-weight: var(--medium-font-weight);
+        display: block;
+        margin-bottom: 64px;
+        font-family: var(--primary-font-family);
+        font-weight: 500;
         font-size: 24px;
-        line-height: 1.17;
+        line-height: 1.16;
         letter-spacing: 0.02em;
-        color: var(--primary-text-color);
+        
+
+        color: var(--accent-black);
+    }
+
+    .mobile-menu__contatcts {
+        margin-top: 163px;
     }
     
     .mobile-menu__socials {
      
         display: flex;
         flex-wrap: wrap;
+       
     
     }
     
@@ -109,14 +124,16 @@
     
     .socials__link {
        
-        font-style: var(-primary-font-family);
-        font-weight: var(--medium-font-weight);
-        font-size: 10px;
+        font-family: var(--primary-font-family);
+        font-weight: 500;
+        font-size: 18px;
         line-height: 1.22;
         letter-spacing: 0.02em;
         color: var(--accent-color);
     
     
+}
+
 }
 
 @media screen and (min-width: 767px) {
