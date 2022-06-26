@@ -1,0 +1,53 @@
+.about {
+    padding-bottom: 0px;
+  }
+  
+  .about__flex {
+    display: flex;
+  }
+  
+  .about__flex .item {
+    width: 270px;
+  }
+  
+  .about__flex .item + .item {
+    margin-left: 30px;
+  }
+  
+  .about__title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+  
+  .about__description {
+   
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  
+    color: var(--accent-black);
+  }
+  
+  .about__list-icons{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    height: 120px;
+    width: 270px;
+    background: rgba(245, 244, 250, 1);
+    border-radius: 4px;
+  
+  
+  }
+  
+  .about__icons_pic {
+    display: block;
+    
+  }
+  

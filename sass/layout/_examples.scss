@@ -1,0 +1,40 @@
+
+  
+  .examples__flex {
+    display: flex;
+  }
+  
+  .examples__flex .item + .item {
+    margin-left: 30px;
+  }
+  
+  .examples__img-wrapper {
+    
+    position: relative;
+    
+  }
+  
+  .examples__content-container {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 370px;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+    padding: 27px 82px;
+  }
+   
+   .examples__img-description {
+     display: block;
+     align-items:center;
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 14px;
+     line-height: 1.14;
+     text-align: center;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+     
+     color: #FFFFFF;
+  }
