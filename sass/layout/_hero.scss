@@ -7,7 +7,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../images/);
+    url(../../images/mobile/hero/hero@1x.jpg);
   background-repeat: no-repeat;
   width: 100%;
   background-size: cover;
@@ -35,7 +35,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../images/background/hero-mobile@2x.jpg);
+      url(../../images/mobile/hero/hero@2x.jpg);
   }
 }
 
@@ -45,7 +45,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../images/background/hero-tablet.jpg);
+      url(../../images/tablet/hero/hero@1x.jpg);
   }
 
   @media screen and (min-device-pixel-ratio: 2),
@@ -56,7 +56,7 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url(../images/background/hero-tablet@2x.jpg);
+        url(../../images/tablet/hero/hero@2x.jpg);
     }
   }
 }
@@ -67,7 +67,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../images/background/hero-desktop.jpg);
+      url(../../images/desktop/hero/hero@1x.jpg);
     max-width: 1600px;
     background-size: cover;
     padding-top: 200px;
@@ -88,7 +88,7 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url(../images/background/hero-desktop@2x.jpg);
+        url(../../images/desktop/hero/hero@2x.jpg);
     }
   }
 }
