@@ -1,6 +1,7 @@
 .social-list {
   display: flex;
   justify-content: center;
+  margin-top: 16px;
 }
 
 .social-list__item:not(:last-child) {
@@ -34,5 +35,6 @@
     fill: var(--main-white);
   }
 }
+
 
 
